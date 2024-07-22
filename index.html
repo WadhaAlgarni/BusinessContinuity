@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css" />
+  <title>Sign in & Sign up Form</title>`
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="forms-container">
+      <div class="signin-signup">
+        <!-- Sign in page -->
+
+
+        <form action="#" class="sign-in-form">
+
+          <div>
+            <img src="/pictures/شعار_Logo.png" class="logo" alt="" />
+          </div>
+
+          <h2 class="title">تسجيل الدخول</h2>
+          <div class="input-field">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="Username" />
+          </div>
+          <div class="input-field">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="Password" />
+          </div>
+          <div class="input-field">
+            <i class="fas fa-users"></i>
+            <input type="text" placeholder="Department" />
+          </div>
+          <input class="btn solid" type="submit" value="Login" />
+        </form>
+
+        <!-- Sign up page -->
+        <form action="#" class="sign-up-form">
+          <h2 class="title">انشاء حساب</h2>
+          <div class="input-field">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="Username" />
+          </div>
+          <div class="input-field">
+            <i class="fas fa-envelope"></i>
+            <input type="email" placeholder="Email" />
+          </div>
+          <div class="input-field">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="Password" />
+          </div>
+          <div class="input-field">
+            <i class="fas fa-users"></i>
+            <input type="text" placeholder="Department" />
+          </div>
+          <input type="submit" class="btn" value="Sign up" />
+
+        </form>
+      </div>
+    </div>
+
+    <div class="panels-container">
+      <div class="panel left-panel">
+        <div class="content">
+          <h3>هل تود الانظمام الينا؟</h3>
+          <p>
+            يمكنك الان الانظمام الينا فقط قم بانشاء حساب حتى تتمكن من الاستفاده من نظام
+            إِبْرام،
+            تم انشاء هذا النظام من قبل امانة محافظه جده لاستمرارية الاعمال في الحكومة الرقمية والهدف منه هو ضمان
+            استمراريّة الخدمات و العمليات،بإتباع ارشادات هيئة الحكومة الرقمية
+            <a href="https://dga.gov.sa/ar/The_Guideline_Of_Business_Continuity_In_Government_Agencies">-هنا</a>.
+          </p>
+          <button class="btn transparent" id="sign-up-btn">انشاء حساب </button>
+        </div>
+        <img src="/pictures/Business.png" class="image" alt="" />
+      </div>
+      <div class="panel right-panel">
+        <div class="content">
+          <div>
+            <img src="/pictures/شعار_Logo.png" class="logo" alt="" />
+          </div>
+          <h3>
+            !اهلا بعودتـك </h3>
+          <p>
+            هل لديك حساب في النظام ؟
+            يمكنك الان الانتقال لتسجيل دخولك للنظام
+            <!--هنا نحط رابط ينقل لدليل ارشادي لهئية الحكومة  -->
+          </p>
+          <button class="btn transparent" id="sign-in-btn"> تسجيل الدخول</button>
+        </div>
+        <img src="pictures/register.svg" class="image" alt="A picture here" />
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
