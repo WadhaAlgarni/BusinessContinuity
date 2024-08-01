@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تحليل أثر الأعمال</title>
+    <link rel="stylesheet" href="impact-analysis.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-left">
+                <button class="menu-btn" id="menu-btn">☰ القائمة</button>
+                <span>admin</span>
+                <div class="status-dot online"></div>
+            </div>
+            <div class="header-right">
+                <button class="notification-btn">رسالة التنبيهات</button>
+                <button class="new-plan-btn"><i class="fas fa-plus"></i> أضف جديد</button>
+            </div>
+        </header>
+        <main>
+            <aside class="sidebar" id="sidebar">
+                <nav>
+                    <ul>
+                        <li>قوائم الأسئلة</li>
+                        <li>الخطط السنوية</li>
+                        <li>الخطط التفصيلية</li>
+                        <li class="dropdown">إستمرارية الأعمال
+                            <ul class="dropdown-content">
+                                <li><a href="index.html">لوحة التحكم</a></li>
+                                <li>الخدمات</li>
+                                <li>الاستراتجيات</li>
+                                <li>الأنشطة</li>
+                                <li>تحليل أثر الأعمال</li> 
+                                <li>الخطط</li>
+                                <li>الكوارث</li>
+                                <li>الاختبارات</li>
+                                <li>فرق العمل</li>
+                                <li>الإشعارات</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </aside>
+            <section class="content">
+                <h2>تحليل أثر الأعمال</h2>
+                <form>
+                    <label for="employee-name">اسم الموظف:</label>
+                    <input type="text" id="employee-name" name="employee-name" required>
+
+                    <label for="employee-id">رقم الموظف:</label>
+                    <input type="text" id="employee-id" name="employee-id" required>
+
+                    <label for="agency">الوكالة:</label>
+                    <input type="text" id="agency" name="agency" required>
+
+                    <label for="department">الإدارة:</label>
+                    <input type="text" id="department" name="department" required>
+
+                    <label for="impact-assessment">تقييم أثر انقطاع الأعمال:</label>
+                    <textarea id="impact-assessment" name="impact-assessment" rows="4" required></textarea>
+
+                    <input type="submit" value="إرسال">
+                </form>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

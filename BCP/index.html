@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نظام استمرارية الأعمال</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- بدايه navbar -->
+        <header>
+            <div class="header-left">
+                <button class="menu-btn" id="menu-btn">☰ القائمة</button>
+                <span>admin</span>
+                <div class="status-dot online"></div>
+            </div>
+            <div class="header-right">
+                <button class="notification-btn">رسالة التنبيهات</button>
+                <button class="new-plan-btn"><i class="fas fa-plus"></i> أضف جديد</button>
+            </div>
+        </header>
+        
+        <main>
+            <aside class="sidebar" id="sidebar">
+                <nav>
+                    <ul>
+                        <li>قوائم الأسئلة</li>
+                        <li>الخطط السنوية</li>
+                        <li>الخطط التفصيلية</li>
+                        <li class="dropdown">إستمرارية الأعمال
+                            <ul class="dropdown-content">
+                                <li>لوحة التحكم</li>
+                                <li>الخدمات</li>
+                                <li>الاستراتجيات</li>
+                                <li>الأنشطة</li>
+                                <li><a href="impact-analysis.html">تحليل أثر الأعمال</a></li> 
+                                <li>الاستراتجيات</li>
+                                <li>الخطط</li>
+                                <li>الكوارث</li>
+                                <li>الاختبارات</li>
+                                <li>فرق العمل</li>
+                                <li>الإشعارات</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </aside>
+            <!-- نهاية navbar -->
+            <section class="content">
+                <button class="new-plan-btn"><i class="fas fa-plus"></i> أضف جديد</button>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>رقم الإصدار</th>
+                            <th>الكود</th>
+                            <th>اسم الخطة</th>
+                            <th>الإدارات</th>
+                            <th>نوع الخطة</th>
+                            <th>مالك الخطة</th>
+                            <th>قيد الاختبار</th>
+                            <th>قيد التفعيل</th>
+                            <th>حالة الخطة</th>
+                            <th>الخيارات</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>BCP-35</td>
+                            <td>خطة اليوم لاختبار الاصدارات الجديدة</td>
+                            <td>إدارة تطوير برمجيات</td>
+                            <td>خطة استمرارية عمل</td>
+                            <td>admin</td>
+                            <td>لا</td>
+                            <td>لا</td>
+                            <td class="status new">جديد</td>
+                            <td>
+                                <button class="delete-btn"><i class="fas fa-trash-alt"></i></button>
+                                <button class="edit-btn"><i class="fas fa-edit"></i></button>
+                                <button class="view-btn"><i class="fas fa-eye"></i></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>V2</td>
+                            <td>BCP-33</td>
+                            <td>خطة مشتركة</td>
+                            <td>إدارة العودة</td>
+                            <td>خطة استمرارية عمل</td>
+                            <td>admin</td>
+                            <td>لا</td>
+                            <td>لا</td>
+                            <td class="status approved">معتمد</td>
+                            <td>
+                                <button class="delete-btn"><i class="fas fa-trash-alt"></i></button>
+                                <button class="edit-btn"><i class="fas fa-edit"></i></button>
+                                <button class="view-btn"><i class="fas fa-eye"></i></button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
